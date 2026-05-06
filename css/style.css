@@ -13,7 +13,7 @@
     background-color:white;
     color: #0D1321;
     padding: 10px 20px;
-    border: 2px solid #0D1321;
+    border: 1px solid #0D1321;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
@@ -73,3 +73,166 @@ header .banner .btn-banner{
     font-family: azeret mono, monospace;
     margin-top: 20px;
 }
+
+/* why web css start */
+
+.why-web{
+    padding:110px 200px 100px 200px;
+}
+
+.why-web .why-web-content{
+    align-items: center;
+    text-align:center;
+    padding: 100px 150px;
+    font-family: 'azret mono', monospace;
+}
+
+.why-web .why-web-content h2{
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: extra-bold;
+}
+.why-web .why-web-content p{
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 24px;
+    font-weight: 400;
+}
+
+.why-web .card-container .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.why-web .card-container{
+    font-family: 'azret mono', monospace;
+}
+
+.why-web .card-container .card .card-content{
+    width: 450px;
+}
+.why-web .card-container .card .card-content h2{
+    font-size: 24px;
+    color: rgb(13, 19, 33, 0.7);
+    font-weight: bold;
+}
+
+.why-web .card-container .card .card-content p{
+    font-size: 16px;
+    color: rgb(13, 19, 33, 0.7);
+    margin: 24px 0 32px 0;
+    font-weight: 400;
+}
+
+/* inspiration section */
+
+.inspiration{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+    font-family: 'azret mono', monospace;
+}
+
+.inspiration h2{
+    display: inline-block;
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.inspiration p{
+    color: rgba(13, 19, 33, 0.7);
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 26px;
+}
+
+.video-container{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+    background: white;
+}
+
+.video-container iframe{
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.video-fallback{
+    margin-top: 14px;
+    font-family: 'azret mono', monospace;
+    font-size: 14px;
+    color: rgba(13, 19, 33, 0.75);
+}
+
+.video-fallback a{
+    color: #0D1321;
+    font-weight: 700;
+}
+
+/* current target section */
+.current-target{
+    width: 80%;
+    margin: 80px auto;
+    /* text-align: center; */
+    font-family: 'azret mono', monospace;
+}
+.current-target h2{
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}   
+
+.current-target .target-description{
+    color: rgba(13, 19, 33, 0.7);
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.current-target .target-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.current-target .target-items .target-item{
+    width: 33%;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 12px;
+}
+
+.current-target .target-items .target-item h3{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    font-weight: extra-bold;
+    margin-bottom:20px;
+}
+.current-target .target-items .target-item p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.current-target .target-items .item-card-1{
+    background-color: #9eb6e5;
+}
+
+.current-target .target-items .item-card-2{
+    background-color: #f5a8a8;
+}
+.current-target .target-items .item-card-3{
+    background-color: #b489e6;
+}
+
+
+
