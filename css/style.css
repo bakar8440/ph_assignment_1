@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* shared css */
 .text-color{
     color: #0D1321;
@@ -64,6 +68,7 @@ header .banner p{
 header .banner .btn-banner{
     background-color: #0D1321;
     color: white;
+    text-decoration: none;
     padding: 20px 25px;
     border: 2px;
     border-radius: 5px;
@@ -234,5 +239,123 @@ header .banner .btn-banner{
     background-color: #b489e6;
 }
 
+/* next target section */
+.next-target{
+    width: 80%;
+    margin: 80px auto;
+    font-family: 'azret mono', monospace;
+}
 
+.next-target h2{
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.next-target .target-description{
+    color: rgba(13, 19, 33, 0.7);
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.next-target .next-target-item{
+    display: flex;
+    flex-direction: row;;
+    margin-top: 40px;
+    border-radius: 16px;
+    padding:30px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.next-target .next-target-item .next-icon{
+    width: 20%;
+    padding:30px;
+    /* border-radius: 12px; */
+}
+
+.next-target .next-target-item .item-content{
+    width: 80%;
+    padding: 30px;
+}
+
+.next-target .next-target-item .next-item-content h3{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    font-weight: extra-bold;
+    margin-bottom:20px;
+}
+
+.next-target .next-target-item .next-item-content p{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.next-target .next-target-item .next-item-content a{
+    font-size: 16px;
+    color: rgba(13, 19, 33);
+    line-height: 24px;
+    font-weight:700;
+    margin-bottom: 10px;
+}
+
+/* support section */
+.support{
+    width: 80%;
+    margin: 80px auto;
+    font-family: 'azret mono', monospace;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:24px;
+}
+
+.support h2{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.support .support-description{
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 700px;
+    margin: 0 auto 50px;
+    line-height: 26px;
+    text-align: center;
+}
+.support form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom:32px;
+}
+
+.support form input{
+    width: 700px;
+    height: 55px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.support form button{
+    height: 55px;
+    padding: 0 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.support form input::placeholder{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.5);
+}
