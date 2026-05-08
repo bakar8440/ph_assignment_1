@@ -359,3 +359,18 @@ header .banner .btn-banner{
     font-size: 16px;
     color: rgba(13, 19, 33, 0.5);
 }
+
+/* footer section start */
+footer{
+    width:80%;
+    margin: 0 auto;
+    font-family: 'azret mono', monospace;
+    display: flex;
+    padding-bottom:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h3{
+    font-size:24px;
+    color: #0D1321;
+}
